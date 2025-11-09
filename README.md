@@ -4,6 +4,17 @@
 
 > 🚀 企业级 Java AI 应用脚手架：支持动态 Prompt、RAG 知识库、多轮对话、全链路可观测性。纯 Java 技术栈，无需 Python！
 
+项目名称：JavaAIAgentKit — 企业级 RAG 智能问答平台
+
+技术栈：Spring Boot, Spring AI Alibaba, Nacos, Redis, Milvus, OpenTelemetry
+
+项目描述：
+
+针对企业 AI 落地难（Prompt 静态、无法追踪、知识更新滞后）等痛点，设计并实现了一套纯 Java 的智能问答系统；
+通过 Nacos 实现 Prompt 和模型参数的动态热更新，发布效率提升 100%；
+集成 RAG 架构，支持私有文档上传与语义检索，问答准确率提升 40%；
+引入 OpenTelemetry 实现全链路追踪，线上问题定位时间从小时级降至分钟级；
+项目已开源，获得 200+ GitHub Stars，被多家中小企业用于内部知识库建设。
 ## ✨ 特性
 
 - ✅ **动态 Prompt 管理**：通过 Nacos 实现热更新，无需重启服务
